@@ -15,7 +15,7 @@
 
 - **OpenXcom Extended 8.7.1** — расширенная версия классического X-COM.
 - Поддерживает **UFO: Enemy Unknown / X-Com: UFO Defense** и **Terror from the Deep**.
-- Запуск через Homebrew (Atmosphere/hekate), режим полной памяти.
+
 
 ## Возможности
 
