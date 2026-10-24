@@ -58,23 +58,6 @@
 
 ---
 
-## Сборка из исходников
-
-Требуется **devkitPro** (devkitA64 + libnx + switch-portlibs) и **MSYS2**.
-
-```bash
-source /etc/profile.d/devkit-env.sh
-export PATH="$DEVKITPRO/devkitA64/bin:$DEVKITPRO/tools/bin:$PATH"
-export PKG_CONFIG_LIBDIR="$DEVKITPRO/portlibs/switch/lib/pkgconfig"
-
-# SD-вариант (данные на карте)
-BUILD=build/oxce-sd NX_EMBED_ROMFS=OFF bash scripts/build_openxcom_switch.sh
-
-# RomFS-вариант (данные внутри NRO)
-BUILD=build/oxce-romfs NX_EMBED_ROMFS=ON bash scripts/build_openxcom_switch.sh
-```
-
----
 
 ## Лицензия и авторство
 
