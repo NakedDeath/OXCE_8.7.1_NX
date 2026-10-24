@@ -2,7 +2,7 @@
 
 Это **homebrew-порт** открытой и бесплатной игры **OpenXcom Extended (OXCE) 8.7.1** на **Nintendo Switch**.
 
-Порт сделан на основе полностью **открытого исходного кода** проекта [OpenXcom Extended](https://github.com/MeridianOXC/OpenXcom_OXCE) (лицензия **GPLv3**). Мы лишь адаптировали его под Switch (devkitPro/libnx/SDL2), добавили управление геймпадом/тачскрином и собрали в `.nro`.
+Порт сделан на основе полностью **открытого исходного кода** проекта [OpenXcom Extended](https://github.com/MeridianOXC/OpenXcom_OXCE) (лицензия **GPLv3**). Я лишь адаптировали его под Switch (devkitPro/libnx/SDL2), добавил управление геймпадом и собрали в `.nro`.
 
 > ⚠️ **В этом репозитории НЕТ файлов игр.** Оригинальные данные X-COM
 > (UFO Defense / Terror from the Deep) добавляются отдельно — это ваши
@@ -20,7 +20,7 @@
 ## Возможности
 
 - ✅ Полноценный OXCE 8.7.1.
-- ✅ Управление геймпадом + тачскрином.
+- ✅ Управление геймпадом.
 - ✅ Моды! `user/mods`.
 
 
@@ -51,17 +51,10 @@
 2. Добавьте свои данные игры:
    - `sdmc:/switch/openxcom/UFO/` — UFO Defense;
    - `sdmc:/switch/openxcom/TFTD/` — Terror from the Deep.
-3. Папки `common/` и `standard/` возьмите из полного набора (или из этого репозитория).
+3. Папки `common/` и `standard/` возьмите из полного набора (или из архива с исходниками из этого репозитория).
 4. Настройки: `sdmc:/config/openxcom/options.cfg` (создаются автоматически).
 5. Запуск — через **Homebrew Menu** в режиме **полной памяти** (зажать `R`).
-6. В игре `Options → Mods`: включите мастер-мод **xcom1** или **xcom2**.
 
----
-
-## Скачать (Releases)
-
-- **`openxcom.nro`** — только игра (для обновления).
-- **`OpenXcomNX_8.7.1_NakedDeath_SD_v5.zip`** — полный набор: NRO + данные `common/standard` + структура папок (без игровых `UFO/TFTD`, их добавляете сами).
 
 ---
 
