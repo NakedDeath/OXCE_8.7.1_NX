@@ -19,11 +19,11 @@
 
 ## Возможности
 
-- ✅ Полноценный OXCE 8.7.1 (геоскейп, бои, базы, исследования, производство).
+- ✅ Полноценный OXCE 8.7.1.
 - ✅ Управление геймпадом + тачскрином.
-- ✅ Стандартные моды (с русскими описаниями) и свои моды через `user/mods`.
-- ✅ Быстрые сохранения, экранная клавиатура.
-- ✅ Собственная иконка порта.
+- ✅ Моды! `user/mods`.
+
+
 
 ---
 
@@ -85,7 +85,7 @@ BUILD=build/oxce-romfs NX_EMBED_ROMFS=ON bash scripts/build_openxcom_switch.sh
 
 ## Лицензия и авторство
 
-- **OpenXcom Extended (OXCE)** — GPLv3 ([исходники](https://github.com/MeridianOXC/OpenXcom_OXCE)).
+- **OpenXcom Extended (OXCE)** — GPLv3 ([исходники](https://openxcom.org/downloads-milestones/)).
 - **OpenXcom** — GPLv3 (<https://openxcom.org>).
 - **SDL2 / libnx / devkitPro** — соответствующие лицензии.
 - **Порт для Switch: NakedDeath.**
