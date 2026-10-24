@@ -51,7 +51,7 @@
 2. Добавьте свои данные игры:
    - `sdmc:/switch/openxcom/UFO/` — UFO Defense;
    - `sdmc:/switch/openxcom/TFTD/` — Terror from the Deep.
-3. Папки `common/` и `standard/` возьмите из полного набора (или из архива в релизах этого репозитория `main.zip`).
+3. Папки `common/` и `standard/` возьмите из полного набора (или из архива в релизах этого репозитория [main.zip](https://github.com/NakedDeath/OXCE_8.7.1_NX/releases/download/0.0.1/main.zip)).
 4. Настройки: `sdmc:/config/openxcom/options.cfg` (создаются автоматически).
 5. Запуск — через **Homebrew Menu** в режиме **полной памяти** (зажать `R`).
 
