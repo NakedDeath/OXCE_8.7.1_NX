@@ -2,7 +2,7 @@
 
 Это **homebrew-порт** открытой и бесплатной игры **OpenXcom Extended (OXCE) 8.7.1** на **Nintendo Switch**.
 
-Порт сделан на основе полностью **открытого исходного кода** проекта [OpenXcom Extended](https://github.com/MeridianOXC/OpenXcom_OXCE) (лицензия **GPLv3**). Я лишь адаптировали его под Switch (devkitPro/libnx/SDL2), добавил управление геймпадом и собрали в `.nro`.
+Порт сделан на основе полностью **открытого исходного кода** проекта [OpenXcom Extended](https://openxcom.org/downloads-milestones/) (лицензия **GPLv3**). Я лишь адаптировали его под Switch (devkitPro/libnx/SDL2), добавил управление геймпадом и собрали в `.nro`.
 
 > ⚠️ **В этом репозитории НЕТ файлов игр.** Оригинальные данные X-COM
 > (UFO Defense / Terror from the Deep) добавляются отдельно — это ваши
